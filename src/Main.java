@@ -25,9 +25,10 @@ public class Main {
         System.out.println("LinkedList after UC4:");
         list.printList();
 
-
+        // UC5: Delete the first element
+        list.pop();
+        System.out.println("LinkedList after UC5:");
+        list.printList();
 
     }
 }
-
-
